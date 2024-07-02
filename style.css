@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* @font-face {
+  font-family: "Made Tommy Soft";
+  src: url("Assets\MADE Tommy Soft\made-tommy-soft-regular-personal-use.otf")
+    format("otf");
+  font-weight: normal;
+  font-style: regular;
+} */
+
+body {
+  background: #000c01;
+  font-family: "Made Tommy Soft", sans-serif;
+  overflow-x: hidden;
+}
+
+.banner {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.gig-finder {
+  display: flex;
+  width: 100%;
+  margin: 10%;
+  color: white;
+}
+
+.four-rectangle {
+  width: 50%;
+  margin: 2%;
+}
+
+.who-are-we {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap:3%;
+}
+
+.para-1{
+    font-weight: 700;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+}
+
+.who-are-we h1{
+    font-weight: 700;
+    font-size:40px;
+    line-height: 50px;
+}
+
+.para-2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.39px;
+}
+
+.sector-innovations{
+    width: 80%;
+    color:white;
+    background: #252525;
+    margin: 2% 10%;
+    padding:50px;
+    border-radius: 25px;
+}
+
+.sector-innovations p{
+    margin-bottom: 1%;
+}
+
+.sector-innovations h3{
+    margin-bottom: 1%;
+    font-weight: 500;
+    font-size: 46.53px;
+}
+
+.para-3{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:10px;
+}
+
+.para-4{
+    font-weight: 400;
+    font-size:17px;
+    line-height: 25px;
+}
+
+.Innovations{
+    padding: 10px;
+}
+
+.Innovations img{
+    margin: -2%;
+    height: 30px;
+    border-right: 10px solid transparent;
+}
+
+.Innovations a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 25px;
+    margin: 15px 0px;
+    width: 28%;
+    display: inline-block;
+    border:2px solid transparent;
+}
+
+.Innovations i{
+    font-size: 25px;
+    margin: 2%;
+}
+
+.Innovations a:hover{
+    border-bottom: 2px solid #000c01;
+}
+
+.arrow-right{
+    color: #28A271;
+    opacity: 0;
+}
+
+.Innovations a:hover i{
+    opacity: 1;
+}
